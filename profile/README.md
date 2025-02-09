@@ -8,14 +8,14 @@ The project aims to:
 
 This project merges and evolves previous efforts, including:
 
-- **xdg-credentials-portal** (by [AlfioEmanueleFresta][https://github.com/AlfioEmanueleFresta])
-- **linux-webauthn-platform-api** (by [iinuwa][https://github.com/iinuwa])
+- **xdg-credentials-portal** (by [AlfioEmanueleFresta](https://github.com/AlfioEmanueleFresta))
+- **linux-webauthn-platform-api** (by [iinuwa](https://github.com/iinuwa))
 
 ## Repositories
 
 The project is composed of multiple repositories:
 
-- **[libwebauthn][libwebauth]**: Linux native implementation of FIDO2 and FIDO U2F Platform APIs.
+- **[libwebauthn][libwebauthn]**: Linux native implementation of FIDO2 and FIDO U2F Platform APIs.
 
   - Fully written in Rust
   - No longer relies on Mozilla's [authenticator-rs][authenticator-rs]
@@ -23,7 +23,7 @@ The project is composed of multiple repositories:
 
 - **[platform-api][platform-api]**: API proposal and reference implementation for a service which will expose FIDO2 and FIDO U2F Platform APIs via a D-Bus interface, for desktop applications to use - including conteinerized apps such as Flatpaks.
 
-  - Similarly to [xdg-desktop-portal][xdg-desktop-portal] and [xdg-documents-portal][xdg-documents-portal], the service is intended to be accessed over a proposed D-Bus _portal_: [org.freedesktop.portal.Credentials][xml-spec].
+  - Similarly to [xdg-desktop-portal][xdg-desktop-portal] and [xdg-documents-portal][xdg-documents-portal], the service is intended to be accessed over a proposed D-Bus portal
 
 ## Motivation
 
@@ -53,16 +53,14 @@ Here is a list of related APIs available on other platforms, which offer similar
 
 - [D-Bus API Design Guidelines][dbus-api-guidelines]
 - Relevant FIDO2 specifications:
-  - **[CTAP 2.0 Proposed Standard][ctap2]**
-    - [Section 7: Interoperating with CTAP1/U2F authenticators][ctap2-interop]
-    - [CTAP 2.1 Review Draft][ctap21]
+  - **[CTAP 2.2 Review Draft][ctap2]**
   - [W3C - Web Authentication API][webauthn]
 
 ## Contributing
 
 We welcome contributions!
 
-- Check out the _Issues_ tab of [each repository][#repositories].
+- Check out the _Issues_ tab of [each repository](#repositories).
 - Areas needing expertise:
 
   - **Platform Authenticator support**. Similarly to Android devices, and Windows Hello. In order to implement this (and request FIDO2 certification), support for the following is needed:
@@ -83,7 +81,7 @@ We welcome contributions!
   - **UI/UX**
 
 [libwebauthn]: https://github.com/linux-credentials/libwebauthn
-[portal-api]: https://github.com/iinuwa/linux-webauthn-platform-api
+[platform-api]: https://github.com/iinuwa/linux-webauthn-platform-api
 [xdg-portal]: https://flatpak.github.io/xdg-desktop-portal/portal-docs.html
 [linux-credentials]: https://github.com/linux-credentials
 [xdg-desktop-portal]: https://github.com/flatpak/xdg-desktop-portal
