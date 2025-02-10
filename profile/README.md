@@ -1,4 +1,4 @@
-# The Linux Credentials Project
+# The Credentials for Linux Project
 
 The project aims to:
 
