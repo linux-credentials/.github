@@ -6,6 +6,9 @@ The project aims to:
 - Implement FIDO2 platform functionality on Linux, allowing the use of [Passkeys][passkeys], FIDO2 and FIDO U2F credentials on hardware security keys, TPMs, and phones
 - Allow integration with third-party credential providers.
 
+For more information, see:
+- [A Vision for Passkeys on the Linux desktop](https://alfioemanuele.io/dev/2024/01/31/a-vision-for-passkeys-on-the-linux-desktop.html) (by [AlfioEmanueleFresta](https://github.com/AlfioEmanueleFresta))
+
 This project merges and evolves previous efforts, including:
 
 - **xdg-credentials-portal** (by [AlfioEmanueleFresta](https://github.com/AlfioEmanueleFresta))
@@ -105,3 +108,4 @@ We welcome contributions!
 [android-fido-privileged]: https://developers.google.com/android/reference/com/google/android/gms/fido/fido2/Fido2PrivilegedApiClient
 [apple-apis]: https://developer.apple.com/documentation/authenticationservices/aswebauthenticationsession
 [passkeys]: https://fidoalliance.org/passkeys/
+[blog-1]: https://alfioemanuele.io/dev/2024/01/31/a-vision-for-passkeys-on-the-linux-desktop.html
