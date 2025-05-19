@@ -8,6 +8,7 @@ The project aims to:
 
 For more information, see:
 - [A Vision for Passkeys on the Linux desktop](https://alfioemanuele.io/dev/2024/01/31/a-vision-for-passkeys-on-the-linux-desktop.html) (by [AlfioEmanueleFresta](https://github.com/AlfioEmanueleFresta))
+- [Linux Passkeys Update](https://www.iinuwa.xyz/blog/linux-passkeys-update/) (by [iinuwa](https://github.com/iinuwa)
 
 This project merges and evolves previous efforts, including:
 
