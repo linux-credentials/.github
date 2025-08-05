@@ -25,7 +25,7 @@ The project is composed of multiple repositories:
   - No longer relies on Mozilla's [authenticator-rs][authenticator-rs]
   - Supporting multiple transports (currently USB HID, BLE, and Hybrid Transport). The library is designed to have pluggable transport implementations, making it easy to add transport backends (NFC is planned)
 
-- **[platform-api][platform-api]**: API proposal and reference implementation for a service which will expose FIDO2 and FIDO U2F Platform APIs via a D-Bus interface, for desktop applications to use - including conteinerized apps such as Flatpaks.
+- **[platform-api][platform-api]**: API proposal and reference implementation for a service which will expose FIDO2 and FIDO U2F Platform APIs via a D-Bus interface, for desktop applications to use - including containerized apps such as Flatpaks.
 
   - Similarly to [xdg-desktop-portal][xdg-desktop-portal] and [xdg-documents-portal][xdg-documents-portal], the service is intended to be accessed over a proposed D-Bus portal
 
