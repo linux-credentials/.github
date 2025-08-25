@@ -64,6 +64,7 @@ Here is a list of related APIs available on other platforms, which offer similar
 
 We welcome contributions!
 
+- Join the `#credentials-for-linux:matrix.org` chatroom on Matrix.
 - Check out the _Issues_ tab of [each repository](#repositories).
 - Areas needing expertise:
 
