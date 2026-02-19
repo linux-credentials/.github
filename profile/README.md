@@ -64,7 +64,7 @@ Here is a list of related APIs available on other platforms, which offer similar
 
 We welcome contributions!
 
-- Join the `#credentials-for-linux:matrix.org` chatroom on Matrix.
+- Join the [#credentials-for-linux:matrix.org][matrix] chatroom on Matrix.
 - Check out the _Issues_ tab of [each repository](#repositories).
 - Areas needing expertise:
 
@@ -111,3 +111,4 @@ We welcome contributions!
 [apple-apis]: https://developer.apple.com/documentation/authenticationservices/aswebauthenticationsession
 [passkeys]: https://fidoalliance.org/passkeys/
 [blog-1]: https://alfioemanuele.io/dev/2024/01/31/a-vision-for-passkeys-on-the-linux-desktop.html
+[matrix]: https://matrix.to/#/#credentials-for-linux:matrix.org
