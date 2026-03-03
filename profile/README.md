@@ -2,8 +2,9 @@
 
 The project aims to:
 
-- Allow applications to create, store, and retrieve credentials in a standardized way across Linux desktop environments
-- Implement FIDO2 platform functionality on Linux, allowing the use of [Passkeys][passkeys], FIDO2 and FIDO U2F credentials on hardware security keys, TPMs, and phones
+- Allow applications to create, store, and retrieve credentials in a standardized way across Linux desktop environments.
+- Provide APIs for credentials and secrets management to sandboxed applications.
+- Implement FIDO2 platform functionality on Linux, allowing the use of [Passkeys][passkeys], FIDO2 and FIDO U2F credentials on hardware security keys, TPMs, and phones.
 - Allow integration with third-party credential providers.
 
 For more information, see:
@@ -29,6 +30,8 @@ The project is composed of multiple repositories:
 - **[credentialsd][credentialsd]**: API proposal and reference implementation for a service which will expose FIDO2 and FIDO U2F Platform APIs via a D-Bus interface, for desktop applications to use - including containerized apps such as Flatpaks.
 
   - Similarly to [xdg-desktop-portal][xdg-desktop-portal] and [xdg-documents-portal][xdg-documents-portal], the service is intended to be accessed over a proposed D-Bus portal
+
+-  **[oo7][oo7]**: A collection of services and libraries around managing secrets, including Secret portal and Secret Service implementations, with an emphasis on segmenting secrets access between sandboxed applications. 
 
 ## Motivation
 
@@ -113,3 +116,4 @@ We welcome contributions!
 [passkeys]: https://fidoalliance.org/passkeys/
 [blog-1]: https://alfioemanuele.io/dev/2024/01/31/a-vision-for-passkeys-on-the-linux-desktop.html
 [matrix]: https://matrix.to/#/#credentials-for-linux:matrix.org
+[oo7]: https://github.com/linux-credentials/oo7
